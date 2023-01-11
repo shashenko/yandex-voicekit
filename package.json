@@ -1,0 +1,39 @@
+{
+  "name": "yandex-voicekit",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./lib/YandexVoicekit.js",
+  "types": "./lib/YandexVoicekit.d.ts",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "prepare": "tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashenko/yandex-voicekit.git"
+  },
+  "keywords": [
+    "yandex",
+    "cloud",
+    "stt"
+  ],
+  "author": "Andrey Shashenko",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/shashenko/yandex-voicekit/issues"
+  },
+  "homepage": "https://github.com/shashenko/yandex-voicekit#readme",
+  "dependencies": {
+    "request": "^2.88.2",
+    "yandex-storage-sdk": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/request": "^2.48.8",
+    "typescript": "^4.9.4"
+  }
+}
