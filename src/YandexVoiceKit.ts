@@ -1,4 +1,4 @@
-import YandexSpeechToText, { LongRunningRecognizeRequest } from './YandexSpeechToText.js'
+import YandexSpeechToText, { LongRunningRecognizeRequest, LongRunningRecognizeRequestOutput } from './YandexSpeechToText.js'
 import YandexLongRunningOperations, {
     Operation,
     GetOperationRequest,
@@ -21,4 +21,5 @@ export {
 export {
     YandexSpeechToText,
     LongRunningRecognizeRequest,
+    LongRunningRecognizeRequestOutput,
 }
