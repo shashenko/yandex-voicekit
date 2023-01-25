@@ -1,15 +1,21 @@
 import YandexSpeechToText, { LongRunningRecognizeRequest } from './YandexSpeechToText.js'
 import YandexLongRunningOperations, {
-    CancelOperationRequest,
+    Operation,
     GetOperationRequest,
+    GetOperationRequestOutput,
     ListOperationsRequest,
-} from './YandexLongRunningOperations'
+    ListOperationsRequestOutput,
+    CancelOperationRequest,
+} from './YandexLongRunningOperations.js'
 
 export {
     YandexLongRunningOperations,
-    CancelOperationRequest,
-    GetOperationRequest,
+    Operation,
     ListOperationsRequest,
+    ListOperationsRequestOutput,
+    GetOperationRequest,
+    GetOperationRequestOutput,
+    CancelOperationRequest,
 }
 
 export {

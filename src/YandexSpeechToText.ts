@@ -1,9 +1,10 @@
-import YandexApi from './YandexApi.js'
 import YandexStorage from 'yandex-storage-sdk'
-import { LongRunningRecognizeRequest, LongRunningRecognizeRequestOutput } from './stt/LongRunningRecognizeRequest'
+import YandexApi from './YandexApi.js'
+import { LongRunningRecognizeRequest, LongRunningRecognizeRequestOutput } from './stt/LongRunningRecognizeRequest.js'
 
 export {
     LongRunningRecognizeRequest,
+    LongRunningRecognizeRequestOutput,
 }
 
 export default class YandexSpeechToText extends YandexApi {

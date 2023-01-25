@@ -1,8 +1,8 @@
 import YandexApi from './YandexApi.js'
-import { ListOperationsRequest, ListOperationsRequestOutput } from './lro/ListOperationsRequest'
-import { GetOperationRequest, GetOperationRequestOutput } from './lro/GetOperationRequest'
-import { CancelOperationRequest } from './lro/CancelOperationRequest'
-import { Operation } from './lro/Operation'
+import { ListOperationsRequest, ListOperationsRequestOutput } from './lro/ListOperationsRequest.js'
+import { GetOperationRequest, GetOperationRequestOutput } from './lro/GetOperationRequest.js'
+import { CancelOperationRequest } from './lro/CancelOperationRequest.js'
+import { Operation } from './lro/Operation.js'
 
 export {
     Operation,
