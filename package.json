@@ -1,10 +1,10 @@
 {
   "name": "yandex-voicekit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "type": "module",
-  "main": "./lib/YandexVoicekit.js",
-  "types": "./lib/YandexVoicekit.d.ts",
+  "main": "./lib/YandexVoiceKit.js",
+  "types": "./lib/YandexVoiceKit.d.ts",
   "files": [
     "lib/"
   ],
